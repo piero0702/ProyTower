@@ -4,6 +4,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import InitialPage from './components/initialPage/InitialPage.jsx'
 import ChatsPasados from './components/chatsPasados/ChatsPasados.jsx'
+import Horario from './components/horario/Horario.jsx'
 const router = createBrowserRouter(
   [
     {
@@ -13,6 +14,10 @@ const router = createBrowserRouter(
     {
       path:"/chatsPasados",
       element: <ChatsPasados/>
+    },
+    {
+      path:"/horario",
+      element: <Horario/>
     }
   ]
 );

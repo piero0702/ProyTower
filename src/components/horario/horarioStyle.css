@@ -1,0 +1,63 @@
+/* styles.css */
+
+.HorarioSemanal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7; /* fondo claro */
+  }
+  
+  .HorarioSemanal.Header {
+    margin-bottom: 20px;
+  }
+  
+  .HorarioSemanal.Calendar {
+    width: 80%; /* ancho del calendario */
+    height: 500px; /* alto del calendario */
+    border: 1px solid #ddd; /* borde gris claro */
+    border-radius: 10px; /* borde redondeado */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra leve */
+  }
+  
+  .HorarioSemanal.Calendar.rbc-toolbar {
+    background-color: #fff; /* fondo blanco */
+    border-bottom: 1px solid #ddd; /* borde gris claro */
+    padding: 10px;
+  }
+  
+  .HorarioSemanal.Calendar.rbc-toolbar button {
+    background-color: #4CAF50; /* color de fondo del botón */
+    color: #fff; /* color del texto del botón */
+    border: none; /* sin borde */
+    border-radius: 5px; /* borde redondeado */
+    cursor: pointer; /* cursor en forma de mano para indicar que es un botón */
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+  .HorarioSemanal.Calendar.rbc-toolbar button:hover {
+    background-color: #3e8e41; /* color de fondo del botón al pasar el mouse */
+  }
+  
+  .HorarioSemanal.Calendar.rbc-month-view {
+    padding: 20px;
+  }
+  
+  .HorarioSemanal.Calendar.rbc-day-slot {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* borde gris claro */
+  }
+  
+  .HorarioSemanal.Calendar.rbc-event {
+    background-color: #fff; /* fondo blanco */
+    border: 1px solid #ddd; /* borde gris claro */
+    padding: 10px;
+    border-radius: 5px; /* borde redondeado */
+    cursor: pointer; /* cursor en forma de mano para indicar que es un evento */
+  }
+  
+  .HorarioSemanal.Calendar.rbc-event:hover {
+    background-color: #f7f7f7; /* fondo claro al pasar el mouse */
+  }

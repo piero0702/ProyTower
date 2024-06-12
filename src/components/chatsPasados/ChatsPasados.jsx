@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../Header/Header'
 import chats from '../../assets/data.js'
-import './chatsPasados.css'
-const chatsPasados = () => {
+import './chatsPasadosStyles.css'
+const ChatsPasados = () => {
   return (
     <>
         <Header/>
@@ -22,4 +22,4 @@ const chatsPasados = () => {
   )
 }
 
-export default chatsPasados
+export default ChatsPasados

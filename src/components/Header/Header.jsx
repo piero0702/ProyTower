@@ -7,6 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import HomeIcon from '@mui/icons-material/Home';
 import './headerStyle.css';
 
 const Header = () => {
@@ -33,10 +34,7 @@ const Header = () => {
             <a href="/chatsPasados"><ListItemText primary="Ver chats pasados" /></a>
           </ListItem>
           <ListItem button>
-            <ListItemText primary="Horario semanal" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="Horario mensual" />
+            <a href="/horario"><ListItemText primary="Horario semanal" /></a>
           </ListItem>
           <ListItem button>
             <ListItemText primary="Exportar" />
@@ -50,6 +48,9 @@ const Header = () => {
           </ListItem>
           <ListItem button>
             <ListItemText primary="Cerrar sesión" />
+          </ListItem>
+          <ListItem button>
+              <a href="/"><HomeIcon/></a>
           </ListItem>
         </List>
       </Drawer>

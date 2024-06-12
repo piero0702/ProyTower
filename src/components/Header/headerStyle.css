@@ -31,3 +31,11 @@ header {
   header button:hover {
     background-color: #eee; /* color de fondo del botón al pasar el mouse */
   }
+  a {
+    text-decoration: none; /* Quitar subrayado */
+    color: inherit; /* Mantener el color heredado del elemento padre */
+}
+
+a:visited {
+    color: inherit; /* Mantener el color heredado del elemento padre cuando el enlace ya fue visitado */
+}
