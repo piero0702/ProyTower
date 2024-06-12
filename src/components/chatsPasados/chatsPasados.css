@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; /* Fondo claro */
+}
+
+#chats-container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 40px auto; /* Espacio entre el contenedor y el borde */
+    padding: 20px; /* Espacio entre el contenido y el borde */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+#chats-container ul {
+    list-style-type: none; /* Quitar estilo de lista */
+    padding: 0; /* Quitar relleno */
+}
+
+#chats-container li {
+    font-size: 18px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    padding: 10px; /* Espacio alrededor de cada ítem */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+    margin-bottom: 10px; /* Espacio inferior */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #eaf3f3; /* Fondo del ítem */
+}
+
+#chats-container li:last-child {
+    border-bottom: none; /* Quitar borde inferior del último ítem */
+}
+
+#chats-container p {
+    font-size: 16px; /* Tamaño del texto */
+    color: #666; /* Color del texto */
+    margin: 5px 0 15px; /* Espaciado */
+    padding-left: 10px; /* Espacio a la izquierda */
+}

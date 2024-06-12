@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a4c6cf; /* fondo claro */
+  }
+  
+  #total {
+    max-width: 800px; /* ancho máximo del contenedor */
+    margin: 40px auto; /* espacio entre el contenedor y el borde */
+    padding: 20px; /* espacio entre el contenido y el borde */
+    background-color: #fff; /* fondo blanco */
+    border: 1px solid #ddd; /* borde gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra leve */
+    border-radius: 10px; /* borde redondeado */
+    text-align: center; /* centrar contenido horizontalmente */
+  }
+  
+  #total img {
+    width: 100px; /* ancho de la imagen */
+    height: 100px; /* alto de la imagen */
+    border-radius: 50%; /* borde redondeado */
+    margin: 20px; /* espacio entre la imagen y el texto */
+  }
+  
+  #total h1 {
+    font-size: 24px; /* tamaño del título */
+    margin-bottom: 10px; /* espacio entre el título y el párrafo */
+  }
+  
+  #total p {
+    font-size: 18px; /* tamaño del párrafo */
+    margin-bottom: 20px; /* espacio entre el párrafo y el input */
+  }
+  
+  #total input {
+    width: 70%; /* reducir ancho del input */
+    padding: 10px; /* espacio entre el texto y el borde del input */
+    font-size: 18px; /* tamaño del texto del input */
+    border: 1px solid #ccc; /* borde gris claro */
+    border-radius: 5px; /* borde redondeado */
+    float: left; /* hacer que el input flote a la izquierda */
+  }
+  
+  #total button {
+    background-color: #4CAF50; /* color de fondo del botón */
+    color: #fff; /* color del texto del botón */
+    padding: 10px 20px; /* espacio entre el texto y el borde del botón */
+    font-size: 18px; /* tamaño del texto del botón */
+    border: none; /* sin borde */
+    border-radius: 5px; /* borde redondeado */
+    cursor: pointer; /* cursor en forma de mano para indicar que es un botón */
+    margin-left: 10px; /* separar el botón del input */
+    float: left; /* hacer que el botón flote a la izquierda */
+  }
+  
+  #total button:hover {
+    background-color: #3e8e41; /* color de fondo del botón al pasar el mouse */
+  }
+  .search-container {
+    overflow: hidden; /* para que los elementos floten correctamente */
+  }

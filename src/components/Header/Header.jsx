@@ -30,7 +30,7 @@ const Header = () => {
         </Toolbar>
         <List>
           <ListItem button>
-            <ListItemText primary="Ver chats pasados" />
+            <a href="/chatsPasados"><ListItemText primary="Ver chats pasados" /></a>
           </ListItem>
           <ListItem button>
             <ListItemText primary="Horario semanal" />
