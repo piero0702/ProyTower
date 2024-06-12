@@ -1,0 +1,33 @@
+/* headerStyle.css */
+
+header {
+    background-color: white; /* color de fondo */
+    padding: 1rem; /* espacio entre el contenido y el borde */
+    display: flex; /* para que los elementos se alineen horizontalmente */
+    justify-content: space-between; /* para que los elementos se distribuyan en todo el ancho */
+    align-items: center; /* para que los elementos se centren verticalmente */
+  }
+  
+  header .icons {
+    display: flex; /* para que los iconos se alineen horizontalmente */
+    align-items: center; /* para que los iconos se centren verticalmente */
+  }
+  
+  header .icons svg {
+    font-size: 24px; /* tamaño de los iconos */
+    margin-right: 10px; /* espacio entre los iconos */
+  }
+  
+  header button {
+    background-color: #fff; /* color de fondo del botón */
+    color: #333; /* color del texto del botón */
+    border: none; /* sin borde */
+    padding: 10px 20px; /* espacio entre el texto y el borde del botón */
+    font-size: 16px; /* tamaño del texto del botón */
+    cursor: pointer; /* cursor en forma de mano para indicar que es un botón */
+    border-radius: 5px; /* borde redondeado */
+  }
+  
+  header button:hover {
+    background-color: #eee; /* color de fondo del botón al pasar el mouse */
+  }
